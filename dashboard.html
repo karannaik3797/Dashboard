@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DV Project Dash</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#heading">
+                        <h1><span>CSE</span>578</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#viz 1" data-after="Viz 1"><b>Viz 1</b></a></li>
+                        <li><a href="#viz 2" data-after="Viz 2"><b>Viz 2</b></a></li>
+                        <li><a href="#viz 3" data-after="Viz 3"><b>Viz 3</b></a></li>
+                        <li><a href="#viz 4" data-after="Viz 4"><b>Viz 4</b></a></li>
+                        <li><a href="#viz 5" data-after="Viz 5"><b>Viz 5</b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects container" id="heading">
+            <div class="projects-header">
+                <h1 class="section-title">VAST MC1 2019: <span>CROWDSOURCING FOR SITUATIONAL AWARENESS</span></h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item" id="viz 1">
+                    <div class="project-info">
+                        <h1>INTERACTIVE HEATMAP</h1>
+                        <h2><i>Visualization showing density of crowdsourced data throughout a particular day over a particular utility</i></h2> <br>
+                        <p>The heatmap viz depicts the density of crowdsourced data throughout a given day for a particular utility. It allows you to select a day from the list of days and a utility from the list of utilities. A slider enables selection
+                            of color intensity of the heatmap. Based on the chosen parameters, the rendered viz will show the number of data points recorded for the selected utility at the selected location. A tooltip shows the exact count of people who
+                            have reported the data for the chosen parameters. <br> <br>
+                            <a href=https://karannaik3797.github.io/HeatMap/ target="_blank"><b>CLICK HERE TO INTERACT</b></a> </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/heatmap.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item" id="viz 2">
+                    <div class="project-info">
+                        <h1>STATIC BOX-AND-WHISKER PLOT</h1>
+                        <h2><i>Visualization showing which regions are most affected by the earthquake</i></h2> <br>
+                        <p>The box plot is a static visualization showing average intensity of reported damage. Using the information of three quartile ranges depicted by the box plot, one can determine where 25th, 50th and 75th percentiles of the crowdsourced
+                            data lie. Based on the average intensities observed, one can conclude which neighborhood is the hardest hit one and hence requires immediate attention. <br> <br>
+                            <a href=https://karannaik3797.github.io/BoxPlot/ target="_blank"><b>CLICK HERE TO VIEW</b></a>
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/Box_whisker Plot.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item" id="viz 3">
+                    <div class="project-info">
+                        <h1>INTERACTIVE SCATTER PLOT</h1>
+                        <h2><i>Visualization depicting reliability of reported data</i></h2> <br>
+                        <p> The scatter plot helps in determining the reliability of reports for various neighborhoods. To interact with the plot, select a location, a day and a utility using the three dropdown lists provided. This will render a distribution
+                            of crowdsourced data regarding the damage caused to the selected utility on the selected day and at the selected location. The rendered plot will show whether the reported data for the selected parameters is clustered or scattered.
+                            If data is clustered, it means many people have reported the same damage intensity while scattered data means different people have reported different intensity of damage caused to that utility on that day at that location.
+                            <br> <br>
+                            <a href=https://karannaik3797.github.io/ScatterPlot/ target="_blank"><b>CLICK HERE TO INTERACT</b></a>
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/scatter plot final.PNG" alt="img">
+                    </div>
+                </div>
+                <div class="project-item" id="viz 4">
+                    <div class="project-info">
+                        <h1>INTERACTIVE LINE-CHART WITH OVERLAP</h1>
+                        <h2><i>Visualization how data changes with time and how one change affects another</i></h2> <br>
+                        <p>For interaction, select a location from the list of location, a utility from the checkboxes and time from a time-slider provided at the bottom of the chart. This will show a line chart displaying how the crowdsourced data for the
+                            selected utility and at the selected location changes over time. It can also compare the intensity of damage caused to different utilities at the chosen location and at the selected time. The discontinuity of the chart is because
+                            some of the reported data is missing in the database. Based on the damage intensity observed, one can prioritize the neighborhoods to decide which location needs more resources at a given time.<br> <br>
+                            <a href=https://karannaik3797.github.io/LineChart/ target="_blank"><b>CLICK HERE TO INTERACT</b></a>
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/Linechart.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item" id="viz 5">
+                    <div class="project-info">
+                        <h1>STATIC BARGRAPH</h1>
+                        <h2><i>Visualization showing reported data vs. missing data</i></h2> <br>
+                        <p>The bar chart is a static plot depicting uncertainty in the crowdsourced data. It shows the number of reported data points vs. the number of missing data points throughout the entire event. From the heights of the bars, one can
+                            get the counts of missing and reported data and comparing their proportions, one can determine how uncertain the crowdsourced data is. <br> <br>
+                            <a href=https://karannaik3797.github.io/BarChart/ target="_blank"><b>CLICK HERE TO VIEW</b></a>
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/Barchart.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Projects Section -->
+</body>
+<script src="./app.js"></script>
+
+</html>
